@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+    margin: 0px;
+}
+body{
+    background-color:rgb(30, 210, 54);
+}
+header,footer{
+    background-color: #a803b7fe;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: x-large;
+    font-weight: 800;
+}
+.div1{
+    display: inline-block;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-top: 40px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.div1:hover{
+    background-color: rgb(154, 206, 216);
+    rotate: 20deg;
+}
+#img1{
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.my:hover img{
+    margin-left: 20%;
+    border-radius: 50%;
+}
+.div2{
+    position: absolute;
+    top: 140px;
+    right: 90px;
+    display: inline-block;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.div2:hover{
+    background-color: chartreuse;
+    width: 400px;
+    height: 400px;
+    transform: scale(1.1,1.1);
+}
+#img2{
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.div2:hover img{
+    width: 350px;
+    height: 350px;
+}
+.div3{
+    display: inline-block;
+    width: 720px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-top: 30px;
+    line-height: 100px;
+}
+.div3:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    transform: skewY(15deg);
+}
+.div4{
+    display: inline-block;
+    width: 700px;
+    height: 100px;
+    border: 2px solid black;
+    margin-left: 20px;
+    line-height: 100px;
+}
+.div4:hover{
+    translate: 10px;
+    color: red;
+}
+footer{
+    margin-bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>Interactive CSS Effects</header>
+    <div class="container">
+        <div class="div1">
+            <p>section 1 : rotate and background</p><br>
+
+            <div class="my">
+                <img id="img1" src="https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg" alt="" width="300px" height="200px">
+            </div>
+
+        </div>
+
+        <div class="div2">
+            <p>section 2 :Scale and Resize</p><br>
+                <img id="img2" src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg" alt="" width="200px" height="200px">
+
+        </div>
+
+        <div class="div3">
+            <p>section 3 :Skew and Opacity</p>
+        </div>
+
+        <div class="div4">
+            <p>section 4 :Translate and Text Color</p>
+        </div>
+    </div>
+
+    <footer>@ 2024 Chintu</footer>
+
+
+
+
+</body>
+</html>
